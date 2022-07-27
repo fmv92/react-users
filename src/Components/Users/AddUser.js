@@ -3,7 +3,6 @@ import Card from "../UI/Card";
 import classes from "./AddUser.module.css";
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
-import Wrapper from "../Helpers/Wrapper";
 
 const AddUser = (props) => {
   const [enteredUserName, setEnteredUserName] = useState("");
